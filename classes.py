@@ -280,20 +280,16 @@ if __name__ == '__main__':
 
     # # Додавання запису John до адресної книги
     # book.add_record(john_record)
-
-    
-    
-    # # print(john_record.birthday)
+    # print(john_record.birthday)
     
     # book.save_data()
-    book.load_data()
+    # book.load_data()
 
     # iterator = book.iterator()
     # for page in iterator:
     #     print(page)
 
-    # print(book.search('ol'))
-
+    print(book.search('ol'))
     print(book.search('222'))
 
     
