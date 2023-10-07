@@ -127,7 +127,7 @@ class Record:
 
 class AddressBook(UserDict):
     
-    def __init__(self, filename="addressbook.json"):
+    def __init__(self, filename="python-core-homework-12-main/addressbook.json"):
         super().__init__()
         self.contacts_on_page = 5
         self.count_pages = 0
